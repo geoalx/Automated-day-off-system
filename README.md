@@ -9,3 +9,5 @@ This system is built usin XAMPP for hosting . Design templates used for the ```r
 ### Setting Up the simulation
 In order to set up the simulation system we need to config the ```[mail function]``` parameter set in the ```php.ini``` file and also the ```[sendmail]``` parameter set in the ```sendmail.ini``` file on your local machine according to your SMTP preferences (I used Gmail for excample). 
 Finally you need to change the variable ```$dir``` in the ```new_req.php``` script and set it to the address of your localhost server.
+
+For the simulation all the user passwords in the database is ```123``` encrypted with md5.
