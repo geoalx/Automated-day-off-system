@@ -6,11 +6,6 @@
     <link rel="stylesheet" href="style1.css"/>
 </head>
 <body>
-<div style = "text-align: center; padding-bottom: -20px;padding-top: 100px">
-<a href="https://www.epignosishq.com/">
-<img src="https://eucoc.cloud/fileadmin/_processed_/7/0/csm_epignosis_square_90c8f8d091.png" width="200" height="100" prefix="logo"/>
-</a>
-</div>
 <?php
 require('db.php');
 session_start();
